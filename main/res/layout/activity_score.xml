@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:padding="12dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:id="@+id/scoreConstTimeTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_time_constStr"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/scoreConstTotalTimeTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_total_time_constStr"
+        android:layout_below="@+id/scoreConstTimeTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/scoreConstRemainedTimeTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_time_remained_constStr"
+        android:layout_alignBaseline="@+id/scoreConstTotalTimeTV"
+        android:layout_below="@+id/scoreConstTimeTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreTotalTimeTV"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_time_zores"
+        android:layout_below="@+id/scoreConstTotalTimeTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="-3dp"
+        android:layout_below="@+id/scoreTotalTimeTV"
+        android:background="@drawable/line"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreRemainedTimeTV"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_time_zores"
+        android:layout_below="@+id/scoreConstTotalTimeTV"
+        android:layout_alignBaseline="@+id/scoreTotalTimeTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:id="@+id/scoreConstQuestionsTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_questions_constTV"
+        android:layout_below="@+id/scoreTotalTimeTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/scoreConstTotalCountTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_totalcount_constStr"
+        android:layout_below="@+id/scoreConstQuestionsTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/scoreConstAttemptedTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_attempted_constTV"
+        android:layout_below="@+id/scoreConstQuestionsTV"
+        android:layout_alignBaseline="@+id/scoreConstTotalCountTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/scoreConstNotAttemptedTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_unattempted_constTV"
+        android:layout_below="@+id/scoreConstQuestionsTV"
+        android:layout_alignBaseline="@+id/scoreConstTotalCountTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreTotalQuestionCountTV"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/double_zeros"
+        android:layout_below="@+id/scoreConstTotalCountTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreTotalAttemptedQuestionCountTV"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/double_zeros"
+        android:layout_below="@+id/scoreConstTotalCountTV"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreTotalUnAttemptedQuestionCountTV"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/double_zeros"
+        android:layout_below="@+id/scoreConstTotalCountTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="-3dp"
+        android:layout_below="@+id/scoreTotalQuestionCountTV"
+        android:background="@drawable/line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:id="@+id/scoreConstResultTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_result_constStr"
+        android:layout_below="@+id/scoreTotalAttemptedQuestionCountTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/scoreConstCorrectAnswersTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_correctanswers_constStr"
+        android:layout_below="@+id/scoreConstResultTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/scoreConstInCorrectAnswersTV"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/score_incorrectanswer_constStr"
+        android:layout_below="@+id/scoreConstResultTV"
+        android:layout_alignBaseline="@+id/scoreConstCorrectAnswersTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreTotalCorrectAnswersTV"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/double_zeros"
+        android:layout_below="@+id/scoreConstCorrectAnswersTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreTotalInCorrectAnswersTV"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="@string/double_zeros"
+        android:layout_below="@+id/scoreConstCorrectAnswersTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"/>
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/userProgress"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="4dp"
+        android:progressDrawable="@drawable/progress_bar_drawable"
+        android:progress="50"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/precentageTV"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/precentage_str"
+        android:background="@android:color/transparent"
+        android:layout_toRightOf="@+id/userProgress"
+         android:layout_toEndOf="@+id/userProgress"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp" />
+
+</RelativeLayout>

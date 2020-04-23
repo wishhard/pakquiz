@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Pak Quiz</string>
+
+
+    <string name="one_minute">1 Minute</string>
+    <string name="three_minz">3 Minutes</string>
+    <string name="five_minz">5 Minutes</string>
+    <string name="quit_str">Do you want to quit?</string>
+    <string name="yes_str">Yes</string>
+    <string name="no_str">No</string>
+    <string name="go_to_main">Main</string>
+    <string name="resume_game">Resume</string>
+    <string name="question_placeholder">Questions: --/--</string>
+    <string name="const_time_str">Time: \u0020</string>
+    <string name="zero_str">00:00/00:00</string>
+
+    <string name="place_holder_question_txt">Mohammad‖ is the real name of Mohammad Bin Qasim and Amadudin is his Title.He was nephew and son-in-law of Hajjaj Bin Yousuf the Governor of Iraq (Omayad Period.He came to Sindh in 712.He was tortured to death in Iraq by Sulaiman.</string>
+    <string name="place_holder_opt1">Dr. Safdar Mahmood Dr. Safdar Mahmood Dr. Safdar Mahmood wnat is this</string>
+    <string name="place_holder_opt2">Dr. Safdar Mahmood</string>
+    <string name="place_holder_opt3">Dr. Safdar Mahmood Dr. Safdar Mahmood</string>
+    <string name="place_holder_opt4">Dr. Safdar</string>
+    <string name="describe_dialog_title">pak quiz</string>
+
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="precentage_str">0%</string>
+    <string name="score_time_constStr">Time</string>
+    <string name="score_total_time_constStr">Total Time</string>
+    <string name="score_time_remained_constStr">Time Remained</string>
+    <string name="score_time_zores">00:00</string>
+    <string name="score_questions_constTV">Questions</string>
+    <string name="score_totalcount_constStr">Total Count</string>
+    <string name="score_attempted_constTV">Attempted</string>
+    <string name="score_unattempted_constTV">UnAttempted</string>
+    <string name="double_zeros">00</string>
+    <string name="score_result_constStr">Result</string>
+    <string name="score_correctanswers_constStr">Correct Answers</string>
+    <string name="score_incorrectanswer_constStr">InCorrect Answers</string>
+
+    <string name="quiz_app">Quit</string>
+    <string name="score_dialog_text">\"Main\" will open the main menu and \"Quit\" will close the app.</string>
+    <string name="scend_dialog">\"Main\" will open the main menu, all progress made will be lost.</string>
+    <string name="low_precentage_str">Failed! Get 50% at least</string>
+    <string name="pass_str">Congratulations! You have passed</string>
+</resources>

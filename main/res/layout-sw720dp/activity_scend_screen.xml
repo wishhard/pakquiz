@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:splitMotionEvents="false"
+    android:padding="5dp"
+    tools:context="com.wishhard.waqas.pakquiz.ScendScreenActivity">
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:textSize="40sp"
+        android:background="@drawable/def"
+        android:drawableBottom="@android:color/white"
+        android:text="@string/place_holder_question_txt"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:typeface="sans"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_placeholder"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/questionCound"
+        android:layout_below="@+id/questionTV"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/const_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/const_time_str"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/questionTV"
+        android:layout_toLeftOf="@+id/timerTV"
+        android:layout_toStartOf="@+id/timerTV"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/timerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero_str"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/questionTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:typeface="sans" />
+
+
+    <TableRow
+        android:id="@+id/first_two_opt"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:weightSum="2"
+        android:layout_below="@+id/questionCound"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:splitMotionEvents="false" >
+
+        <TextView
+            android:id="@+id/opt1TV"
+            android:background="@drawable/custom_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="36sp"
+            android:text="@string/place_holder_opt1"
+            android:textColor="@android:color/white"
+            android:typeface="sans"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp"/>
+
+        <TextView
+            android:id="@+id/opt2TV"
+            android:background="@drawable/custom_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="36sp"
+            android:text="@string/place_holder_opt2"
+            android:textColor="@android:color/white"
+            android:typeface="sans"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:weightSum="2"
+        android:layout_below="@+id/first_two_opt"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:splitMotionEvents="false">
+
+        <TextView
+            android:id="@+id/opt3TV"
+            android:background="@drawable/custom_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="36sp"
+            android:text="@string/place_holder_opt3"
+            android:textColor="@android:color/white"
+            android:typeface="sans"
+            android:layout_marginRight="2dp"
+            android:layout_marginEnd="2dp"/>
+
+        <TextView
+            android:id="@+id/opt4TV"
+            android:background="@drawable/custom_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="36sp"
+            android:text="@string/place_holder_opt2"
+            android:textColor="@android:color/white"
+            android:typeface="sans"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"/>
+    </TableRow>
+
+
+</RelativeLayout>
